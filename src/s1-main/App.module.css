@@ -1,0 +1,14 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    width: 100%;
+    border: 1px solid #0a0a0a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hwTitle {
+
+}
