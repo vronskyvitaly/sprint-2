@@ -1,29 +1,53 @@
 .button {
-}
-
-.disabled {
-}
-
-.secondary {
+    display: inline-flex;
+    transition: ease-in 0.4s;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .default {
+    background-color: #0059b3 ;
+    color: #FFFFFF;
 }
 
 .red {
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.disabled {
+    pointer-events: none;
+    color: #0871e0;
+    background: #004D99;
+    opacity: 0.5;
+}
+
+.secondary {
+    background-color: #FFFFFF;
+    color:#1127d7 ;
+    border: 1px solid #1127d7;
 }
 
 .default:hover {
+    background: #0080FF;
 }
 
-.red:hover {
-}
-
-.secondary:hover {
-}
 
 
 .default:active {
+}
+
+.red:hover {
+   background-color: #800404;
+}
+
+
+.secondary:hover {
+    background-color: cornflowerblue;
 }
 
 .secondary:active {
