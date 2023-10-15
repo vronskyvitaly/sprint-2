@@ -1,25 +1,59 @@
+
+
+
 .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    transition: all 0.5s ease;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .sidebar.open {
+    left: 0;
 }
 
 .background {
+    background-color: #703333;
 }
 
 .nav {
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
 }
 
 .nav a:hover {
+    color: #1f2b7c;
+    font-weight: bold;
 }
 
 .nav a.active {
+    font-weight: bold;
+    color: #1f2b7c;
+    background-color: #ddd;
 }
+
 .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
 }
 
 .close img {
+    width: 20px;
+    height: 20px;
 }
