@@ -1,7 +1,15 @@
 .greetingForm {
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 .inputAndButtonContainer {
+
+    display: flex;
+    align-items: start;
 }
 
 .error {
@@ -9,6 +17,7 @@
 }
 
 .input {
+    width: 20px;
 }
 
 .input:focus {
@@ -20,6 +29,13 @@
 }
 
 .button {
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0059b3;
 }
 
 .button:focus {
