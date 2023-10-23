@@ -13,6 +13,7 @@
 }
 
 .friendText {
+    z-index: -100;
     position: relative;
     width: 414px;
     padding: 10px;
@@ -23,12 +24,11 @@
 
 .friendText:after {
     content: "";
-    z-index: -10;
     position: absolute;
     top: 38px;
     right: 398px;
     border-width: 13px 8px 12px 21px;
-    border-color: #2861d3 transparent transparent transparent;
+    border-color: #b21047 transparent transparent transparent;
 
 }
 
