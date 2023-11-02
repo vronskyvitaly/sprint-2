@@ -11,9 +11,14 @@
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 20px;
 }
 
 .thead {
+    background-color: #434643;
 }
 
 .nameCol {
